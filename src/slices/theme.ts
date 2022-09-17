@@ -4,7 +4,7 @@ export interface Theme {
   color: string;
 }
 
-const color = "";
+const color = "#2C3342";
 // slice 안에 들어갈 내용들은 매우 심플하고 직관적이다.
 // name, initialState, reducers.
 export const theme = createSlice({
